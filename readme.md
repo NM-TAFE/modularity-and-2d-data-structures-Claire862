@@ -96,3 +96,5 @@ Please submit the refactored code, your test case, and the written report.
 ### Evaluation Criteria
 
 Your refactoring will be evaluated on the clarity and modularity of your code, as well as the thoughtful reasoning behind your design decisions. Your test case should be robust and cover key aspects of the tic-tac-toe game functionality. The written report should accurately reflect your understanding of code refactoring, testing, and the flexibility of your new implementation.
+
+Test first commit
