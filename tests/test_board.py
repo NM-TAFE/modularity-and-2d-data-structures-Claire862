@@ -14,4 +14,3 @@ class Test_isPositionOccupied(unittest.TestCase):
         self.assertTrue(test_board.is_position_occupied(0,0))
         self.assertFalse(test_board.is_position_occupied(0, 1))
         self.assertFalse(test_board.is_position_occupied(1, 0))
-
