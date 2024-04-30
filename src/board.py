@@ -44,7 +44,7 @@ class Board:
         return self.grid[row][col] is not None
 
     def make_move(self, row, col, player) -> None:
-        if 0 > row > self.size or 0 > col > self.size:
+        if 0 > row or row > self.size-1 or 0 > col or col > self.size-1:
             raise InvalidPositionError("Invalid position")
         if self.is_position_occupied(row, col):
             raise PositionOccupiedError("Position already occupied")
