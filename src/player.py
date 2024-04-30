@@ -10,7 +10,5 @@ class Player:
             move = input("Next move for player " + self.symbol + " (0-8): ")
 
         return int(move)
-
-    def __str__(self) -> str:
-
-        return str(self.symbol)
+    def __str__(self):
+        return self.symbol

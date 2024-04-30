@@ -101,4 +101,4 @@ class Board:
 
         return None
     def __str__(self) -> str:
-        return "\n".join([str(row) for row in self.grid])
+        return '\n'.join(["[" + ', '.join(map(str, self.grid[row])) + "]" for row in range(self.size)])
